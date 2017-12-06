@@ -4,7 +4,8 @@
 	<title>Group Project #1</title>
  	<!-- Compiled and minified CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-	 
+	 <!-- Jquery -->
+	 <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 	<!-- Compiled and minified JavaScript -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 	<link rel="stylesheet" href="assets/css/style.css">
@@ -22,20 +23,36 @@
     </div>
 	</nav>
 	
-		<div class="row">
-			<div class="col s12">
-				<img class="responsive-img header-background" src="assets/img/lake.jpg">
+			<div class="row jumbo">
+				<div class="col s12 top-area">
+					<!-- <img class="header-background" src="assets/img/lake.jpg"> -->
+					<div>
+						<h3 class="info-text">Pricing | Info | Video Reviews.  One Place</h3>
+					</div>
+					<div class="input-field col s6" id="product-search">
+							<input id="video-search" type="text" class="">
+							<label for="last_name">Product Name</label>
+							<a class="waves-effect waves-light btn" id="submit-button">Search</a>
+							<!-- <input type="text" class="form-control" placeholder="Search for product" id="video-search">
+							<button type="submit" class="btn btn-primary" id="submit-button">Youtube API</button> -->
+						</div>
+				</div>
 			</div>
-		</div>
 
+			<div class="result">
+
+			</div>
 
 
 	<!-- Firebase Library -->
 	<script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
 	<!-- jQuery library -->
-	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+	
 	<!-- Materialize library -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+	<script src="assets/javascript/app.js" charset="utf-8"></script>
 
 
 </body>
