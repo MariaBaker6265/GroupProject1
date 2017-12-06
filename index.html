@@ -2,23 +2,36 @@
 <html>
 <head>
 	<title>Group Project #1</title>
- 	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+ 	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+	 
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+	<link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
+	<nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Pure Reviews</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="sass.html">About</a></li>
+        <li><a href="badges.html">Home</a></li>
+        <li><a href="collapsible.html">Login</a></li>
+      </ul>
+    </div>
+	</nav>
 	
+		<div class="row">
+			<div class="col s12">
+				<img class="responsive-img header-background" src="assets/img/lake.jpg">
+			</div>
+		</div>
+
+
+
 	<!-- Firebase Library -->
 	<script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
-	<script>
-	  // Initialize Firebase
-	  var config = {
-	    apiKey: "AIzaSyCUE8vxN9tFrV5spAnE3AvkWPYNA-ai24k",
-	    authDomain: "group-project-1-f1ac1.firebaseapp.com",
-	    databaseURL: "https://group-project-1-f1ac1.firebaseio.com",
-	    projectId: "group-project-1-f1ac1",
-	    storageBucket: "group-project-1-f1ac1.appspot.com",
-	    messagingSenderId: "891913964044"
-	  };
-	  firebase.initializeApp(config);</script>
 	<!-- jQuery library -->
 	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 	<!-- Materialize library -->
